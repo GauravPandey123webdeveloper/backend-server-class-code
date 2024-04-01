@@ -8,6 +8,7 @@ const router= express.Router();
 app.use(express.json());
 // get api creation router.get(path,callback)
 router.get('/:country/user/:state',function (req,res){
+    // url used in postman: http://localhost:8000/india/user/hary?product=phone&brand=redmi
     // getting values from query params 
     // const name=req.query.product;
     // const brand=req.query.brand;
